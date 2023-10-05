@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(wp7110954.jpg) ;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    align-content: center;
+    padding-top: 275px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+button {
+    border: 3px;
+    border-style: groove;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#passenger-btn {
+    background: red;
+}
+
+#save-btn {
+    background: black;
+}
+#save-el {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
